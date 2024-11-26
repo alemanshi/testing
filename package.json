@@ -1,0 +1,41 @@
+{
+  "name": "herramienta-testing",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^5.0.0",
+    "file-saver": "^2.0.0",
+    "formik": "^2.0.0",
+    "jspdf": "^2.5.2",
+    "react": "^18.0.0",
+    "react-bootstrap": "^2.10.6",
+    "react-dom": "^18.0.0",
+    "yup": "^0.32.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^3.7.2"
+  }
+}

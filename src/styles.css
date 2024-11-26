@@ -1,0 +1,194 @@
+/* Estilo General */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+/* Encabezado y Barra de Navegación */
+.navbar {
+  background-color: #4e73df;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.1rem;
+  margin-left: 15px;
+}
+
+.nav-link:hover {
+  color: #d1d8e0;
+}
+
+/* Contenedor Principal */
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Formularios */
+.form-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.form-control {
+  border-radius: 8px;
+  box-shadow: none;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  padding: 12px;
+}
+
+.form-control:focus {
+  border-color: #4e73df;
+  box-shadow: 0 0 5px rgba(0, 87, 255, 0.2);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: #4e73df;
+  margin-bottom: 20px;
+}
+
+/* Botones */
+.btn {
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #4e73df;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #2e59d9;
+}
+
+.btn-secondary {
+  background-color: #f6c23e;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #e0a800;
+}
+
+.mt-3 {
+  margin-top: 30px;
+}
+
+.mt-4 {
+  margin-top: 40px;
+}
+
+/* Dropzone */
+.drag-drop-area {
+  background-color: #f1f3f5;
+  border: 2px dashed #4e73df;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.drag-drop-area p {
+  color: #6c757d;
+  font-size: 1.1rem;
+}
+
+.drag-drop-area:hover {
+  background-color: #e9ecef;
+}
+
+.drag-drop-area ul {
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.drag-drop-area li {
+  padding: 5px 0;
+  font-size: 1rem;
+  color: #4e73df;
+}
+
+/* DropDown */
+.dropdown-menu {
+  border-radius: 8px;
+}
+
+.dropdown-item {
+  font-size: 1rem;
+}
+
+.dropdown-item:hover {
+  background-color: #4e73df;
+  color: white;
+}
+
+/* Estilo para los informes exportados */
+.pdf-export {
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.pdf-title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #4e73df;
+}
+
+.pdf-text {
+  margin-top: 10px;
+}
+
+/* Contenido del NavBar */
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  font-weight: 500;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #4e73df;
+}
